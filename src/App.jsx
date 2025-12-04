@@ -1,14 +1,11 @@
-import SearchBox from "./SearchBox";
-import "./infoBox.jsx";
-import InfoBox from "./infoBox.jsx";
+import WeatherApp from "./WeatherApp";
 
 function App() {
 
   return (
-    <>
-      <SearchBox  />
-      <InfoBox />
-    </>
+    <div style={{ textAlign: 'center' }} >
+      <WeatherApp />
+    </div>
   )
 }
 
